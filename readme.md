@@ -1,0 +1,2 @@
+原先youyou课堂的MMORPG学习项目已经删除  
+尝试使用XLua和Skynet编写MMORPG
