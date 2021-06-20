@@ -20,8 +20,8 @@ end
 skynet.start(function ()
     print("===============socket1 start==================")
 
-    local id = socket.listen("192.168.43.129", 8888)
-    
+    local id = socket.listen("192.168.43.130", 8888)
+
     socket.start(id, function (id, addr)
         print("connect from " .. addr .. " " .. id)
         echo(id)
